@@ -19,16 +19,18 @@
 
 ## **📂 Project Structure**  
 - `ft_printf.c` → Main function handling format parsing  
-- `ft_printf_utils.c` → Helper functions for printing  
-- `ft_print_numbers.c` → Functions for integer and hexadecimal conversions  
-- `ft_print_chars.c` → Functions for characters and strings  
-- `ft_print_address.c` → Function for pointer addresses  
-- `libft/` → Helper functions from Libft (if used)  
+- `ft_printf.h` → Header file containing function prototypes  
+- `ft_printadrs.c` → Function for handling pointer addresses (`%p`)  
+- `ft_printchar.c` → Function for printing characters (`%c`)  
+- `ft_printhex.c` → Function for printing hexadecimal numbers (`%x`, `%X`)  
+- `ft_printnbr.c` → Function for printing integers (`%d`, `%i`)  
+- `ft_printstr.c` → Function for printing strings (`%s`)  
+- `ft_printuns.c` → Function for printing unsigned integers (`%u`)  
 
-## **🛠️ Installation & Usage**  
+## **🛠️ Installation**  
 
 ### **🔹 Cloning the Repository**  
 ```sh
-git clone https://github.com/yourusername/ft_printf.git
+git clone https://github.com/adil-mabrouk/printf.git
 cd ft_printf
 make
